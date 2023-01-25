@@ -248,7 +248,7 @@ export class Game {
                                  if (localStorage.getItem("HighScore") < this.scoreCount) {
                                 localStorage.setItem("HighScore", this.scoreCount)
                                 }
-                                this.score.innerHTML = `GAME OVER! Your Score was <span style="color: green">${this.scoreCount}</span> in <span style="color: green">${this.attempts}</span> attempts. HighScore: <span style="color: green">${localStorage.getItem("HighScore")}</span>`
+                                this.score.innerHTML = `Your Score was <span style="color: green">${this.scoreCount}</span> in <span style="color: green">${this.attempts}</span> attempts. HighScore: <span style="color: green">${localStorage.getItem("HighScore")}</span>`
                             } else {
                                 this.score.innerHTML = `(SCORE: <span style="color: green">${this.scoreCount}</span>) (ATTEMPTS: ${this.attempts}) (MATCHES: <span style="color: green">${this.matches}</span>)`;
                             }
