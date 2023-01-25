@@ -214,7 +214,7 @@ export class Game {
                             this.firstCard = null;
                             this.secondCard = null;
                             this.score.innerHTML = `(SCORE: <span style="color: green">${this.scoreCount}</span>) (ATTEMPTS: ${this.attempts}) (MATCHES: <span style="color: green">${this.matches}</span>)`;
-                        }, 600);
+                        }, 900);
                             
                            
                     }
@@ -273,7 +273,7 @@ export class Game {
                                 this.firstCard = null;
                                 this.secondCard = null;
                                 this.score.innerHTML = `(SCORE: <span style="color: green">${this.scoreCount}</span>) (ATTEMPTS: ${this.attempts}) (MATCHES: <span style="color: green">${this.matches}</span>)`;
-                            }, 600);
+                            }, 900);
                             
                         }
                         
@@ -438,7 +438,7 @@ export class CardHolder {
         nextButton.addEventListener("mouseleave", () => {
             nextButton.style.backgroundColor = COLORS.buttonColor;
         })
-        header.textContent = "Instructions";
+        header.textContent = "MATCH THE IDENTICAL CARDS!";
         instructions.textContent = `
         The objective of the memory game is to match pairs of cards that have the same image or pattern on them.
         The game board is set up with a number of cards face down. The Player makes tries by flipping over two cards at a time.
