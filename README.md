@@ -23,7 +23,7 @@ Playing the game requires that you visit [Memoir Maze](https://tum638.github.io/
 
 ## Acknowledgements
 
-<p>Inspiration for this project came from one of my Computer Science Professors, as we were learning the basics of API usage.
+<p>Inspiration for this project came from one of my Computer Science Professor, as we were learning the basics of API usage.
 
 ## Additional Notes
 <p>Feel free to let me know about any improvements i could make to the
